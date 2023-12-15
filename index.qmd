@@ -1,0 +1,29 @@
+---
+title: "KOTHAPALLI ARAVIND - Data Science Portfolio"
+format:
+  html:
+    css: style.css
+---
+
+# Welcome to My Data Science Portfolio
+
+## About Me
+
+I am KOTHAPALLI ARAVIND, a dedicated Data Scientist with a strong background in statistical analysis, machine learning, and computer science. My academic and professional journey in data science is marked by a relentless pursuit of knowledge and a commitment to solving complex problems in innovative ways.
+
+## Career Objective
+
+To matriculate in a challenging and stimulating environment that gives me an opportunity to improve my potential and knowledge, and to use it for meaningful research and applications. I seek a quality environment where my skills can be shared and enriched for mutual benefit and growth.
+
+## Qualification
+
+-   **B. Tech in Computer Science and Engineering**, JNTU(HYD), MLR Institute of Technology (Autonomous), 2022. CGPA: 7.0
+-   **Intermediate**, Andhra Pradesh State Board, Sri Chaitanya Junior College, 2018. Percentage: 96.7
+-   **SSC**, Board of Secondary Education, Ravindra Bharathi Public School, 2016. CGPA: 8.5
+
+## Projects
+
+-   **Mobile Language Translator App**: An application translating languages using Machine Learning. Role: Team Lead.
+-   **Cyber Attack Detection using Spatiotemporal Patterns**: Developing machine learning methods for detecting cyber-attacks in distribution systems. Role: Team Member.
+
+## 

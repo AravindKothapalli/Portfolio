@@ -1,0 +1,62 @@
+---
+title: "Resume"
+format: pdf
+---
+
+# KOTHAPALLI ARAVIND
+
+-   Email Id: aravindkothapalli1999\@gmail.com
+-   Mobile: +919515539754
+
+## Career Objective
+
+To matriculate in a challenging and stimulating university which gives me an opportunity to improve my potential, knowledge, and use it for research. Also seeking a quality environment where my knowledge can be shared for mutual benefit and growth.
+
+## Qualification
+
+| Qualification                            | Board or University name                             | Institute Name                           | Year of Passing | Percentage/CGPA |
+|------------------------------------------|------------------------------------------------------|------------------------------------------|-----------------|-----------------|
+| B. Tech Computer Science and Engineering | JNTU(HYD)                                            | MLR Institute of Technology (Autonomous) | 2022            | 7.0             |
+| Intermediate                             | Andhra Pradesh State Board of Intermediate Education | Sri Chaitanya Junior College             | 2018            | 96.7            |
+| SSC                                      | Board of Secondary Education                         | Ravindra Bharathi public School          | 2016            | 8.5             |
+
+## Projects
+
+### Mobile Language Translator App
+
+-   **Project Technology**: Machine learning
+-   **Project Role & Responsibility**: Team Lead
+-   **Project Description**: It is an Application Translating from one language to user required language
+-   **Skills Used**: Android Studio, Java, Firebase - ML
+
+### Cyber attack detection using spatiotemporal patterns
+
+-   **Project Technology**: Flexible machine learning
+-   **Project Role & Responsibility**: Team member
+-   **Project Description**: The project develops a flexible machine learning detection method for cyber-attacks in distribution systems considering spatiotemporal patterns
+-   **Skills Used**: Python
+
+## Workshop
+
+-   Attended a workshop on Technology and Career Conference at BITS Pilani, Hyderabad on October 2018.
+-   Attended a Critical Thinking Workshop conducted by ISEE at MLR Institute of Technology, Hyderabad on October 2019.
+
+## Certification
+
+-   NPTEL e-certificate for completing the course in C Programming.
+-   Business English Certificate from the University of Cambridge.
+
+## Achievements
+
+-   Runner up in Micro Project Competition.
+
+## Management Skills
+
+-   Financial advisor of CAME (Cultural Club) in MLR Institute of Technology.
+-   Coordinated the art exhibition during LITRIVIA-2019 at MLRIT, Hyderabad.
+-   Facilitated ESPIRIT CRITIQUE -- 2020 event in collaboration with IUCEE at MLRIT.
+
+------------------------------------------------------------------------
+
+Date: 19th APR 2022\
+Place: Hyderabad

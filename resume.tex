@@ -1,0 +1,304 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\makeatother
+\makeatletter
+\@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Resume},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Resume}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, borderline west={3pt}{0pt}{shadecolor}, sharp corners, boxrule=0pt, breakable, enhanced, interior hidden]}{\end{tcolorbox}}\fi
+
+\hypertarget{kothapalli-aravind}{%
+\section{KOTHAPALLI ARAVIND}\label{kothapalli-aravind}}
+
+\begin{itemize}
+\tightlist
+\item
+  Email Id: aravindkothapalli1999@gmail.com
+\item
+  Mobile: +919515539754
+\end{itemize}
+
+\hypertarget{career-objective}{%
+\subsection{Career Objective}\label{career-objective}}
+
+To matriculate in a challenging and stimulating university which gives
+me an opportunity to improve my potential, knowledge, and use it for
+research. Also seeking a quality environment where my knowledge can be
+shared for mutual benefit and growth.
+
+\hypertarget{qualification}{%
+\subsection{Qualification}\label{qualification}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2442}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.3140}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2442}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.0988}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.0988}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Qualification
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Board or University name
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Institute Name
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Year of Passing
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Percentage/CGPA
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+B. Tech Computer Science and Engineering & JNTU(HYD) & MLR Institute of
+Technology (Autonomous) & 2022 & 7.0 \\
+Intermediate & Andhra Pradesh State Board of Intermediate Education &
+Sri Chaitanya Junior College & 2018 & 96.7 \\
+SSC & Board of Secondary Education & Ravindra Bharathi public School &
+2016 & 8.5 \\
+\end{longtable}
+
+\hypertarget{projects}{%
+\subsection{Projects}\label{projects}}
+
+\hypertarget{mobile-language-translator-app}{%
+\subsubsection{Mobile Language Translator
+App}\label{mobile-language-translator-app}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Project Technology}: Machine learning
+\item
+  \textbf{Project Role \& Responsibility}: Team Lead
+\item
+  \textbf{Project Description}: It is an Application Translating from
+  one language to user required language
+\item
+  \textbf{Skills Used}: Android Studio, Java, Firebase - ML
+\end{itemize}
+
+\hypertarget{cyber-attack-detection-using-spatiotemporal-patterns}{%
+\subsubsection{Cyber attack detection using spatiotemporal
+patterns}\label{cyber-attack-detection-using-spatiotemporal-patterns}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Project Technology}: Flexible machine learning
+\item
+  \textbf{Project Role \& Responsibility}: Team member
+\item
+  \textbf{Project Description}: The project develops a flexible machine
+  learning detection method for cyber-attacks in distribution systems
+  considering spatiotemporal patterns
+\item
+  \textbf{Skills Used}: Python
+\end{itemize}
+
+\hypertarget{workshop}{%
+\subsection{Workshop}\label{workshop}}
+
+\begin{itemize}
+\tightlist
+\item
+  Attended a workshop on Technology and Career Conference at BITS
+  Pilani, Hyderabad on October 2018.
+\item
+  Attended a Critical Thinking Workshop conducted by ISEE at MLR
+  Institute of Technology, Hyderabad on October 2019.
+\end{itemize}
+
+\hypertarget{certification}{%
+\subsection{Certification}\label{certification}}
+
+\begin{itemize}
+\tightlist
+\item
+  NPTEL e-certificate for completing the course in C Programming.
+\item
+  Business English Certificate from the University of Cambridge.
+\end{itemize}
+
+\hypertarget{achievements}{%
+\subsection{Achievements}\label{achievements}}
+
+\begin{itemize}
+\tightlist
+\item
+  Runner up in Micro Project Competition.
+\end{itemize}
+
+\hypertarget{management-skills}{%
+\subsection{Management Skills}\label{management-skills}}
+
+\begin{itemize}
+\tightlist
+\item
+  Financial advisor of CAME (Cultural Club) in MLR Institute of
+  Technology.
+\item
+  Coordinated the art exhibition during LITRIVIA-2019 at MLRIT,
+  Hyderabad.
+\item
+  Facilitated ESPIRIT CRITIQUE -- 2020 event in collaboration with IUCEE
+  at MLRIT.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Date: 19th APR 2022\\
+Place: Hyderabad
+
+
+
+\end{document}
